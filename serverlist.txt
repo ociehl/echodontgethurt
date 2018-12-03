@@ -1,0 +1,1 @@
+[{"servername":"Khali","url":"192.168.0.1","httpport":"8080","rtspport":"8888","user":"","pw":"","autoLogin":"1"}]

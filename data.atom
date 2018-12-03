@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The GitHub Blog Data</title>
+  <link rel="alternate" href="https://blog.github.com"/>
+  <link rel="self" href="https://blog.github.com/data.atom"/>
+  <updated>2018-12-03T03:01:13+00:00</updated>
+  <id>https://blog.github.com</id>
+  <author>
+    <name>GitHub</name>
+    <email>support@github.com</email>
+  </author>
+
+  <entry>
+    <title>The State of the Octoverse&#58; breaks and holidays</title>
+    <link href="https://blog.github.com/2018-11-20-breaks-and-holidays/"/>
+    <updated>2018-11-20T00:00:00+00:00</updated>
+    <id>https://blog.github.com/breaks-and-holidays</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48802879-48451700-ecc5-11e8-8005-1441dbc2cfe0.png&quot; alt=&quot;The State of the Octoverse - Breaks and holidays&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This article is part of a series based on our &lt;a href=&quot;https://octoverse.github.com&quot;&gt;2018 State of the Octoverse report&lt;/a&gt;—trends and insights into GitHub activity, the open source community, and more from the GitHub Data Science Team.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Time plays a big role in how you collaborate on GitHub—time of day, time of the week, and time of year. In our &lt;a href=&quot;https://octoverse.github.com&quot;&gt;Octoverse report&lt;/a&gt;, we shared an overview of GitHub activity trends across the world. While everyone’s schedule is different, it turns out we all have something in common no matter where we are: making time for the people and projects that matter most.&lt;/p&gt;
+
+&lt;p&gt;The time you spend on and away from GitHub tells us something equally important. You’re putting in the hours for your favorite open source projects, but you’re also giving yourself breaks to recharge and celebrate the holidays. To show this seasonality of GitHub activity, we analyzed contribution density in open source, public, and private repositories aggregated at hourly, weekly, and annual levels.&lt;/p&gt;
+
+&lt;h3 id=&quot;breaks-during-the-day&quot;&gt;Breaks during the day&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48802851-3499b080-ecc5-11e8-81c1-17404b21a3df.png&quot; alt=&quot;Repository activity throughout the day&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When it comes to daily routines, activity in private, public, and open source repositories all follow a similar pattern during daytime hours. We’ve found that work increases hour by hour in the morning, with activity hitting an initial peak at around 11:00 local time. This is followed by a noticeable dip of several hours before the day’s second activity spike at 15:00.&lt;/p&gt;
+
+&lt;p&gt;So what’s happening in between? Say “thank you” to the circadian rhythm–no matter what type of project you’re working on, chances are you’re stopping to grab a bite to eat. We can see that contributors in Mexico and Argentina take lunch later in the day compared to contributors in the U.S. And in China, a midday break is serious business, with the lunchtime change across all repositories even more pronounced.&lt;/p&gt;
+
+&lt;p&gt;After lunch, work picks back up until activity in private repositories begins to wind down for the night.&lt;/p&gt;
+
+&lt;h3 id=&quot;breaks-by-repository&quot;&gt;Breaks by repository&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48802850-3499b080-ecc5-11e8-8596-ef56a17c3024.png&quot; alt=&quot;Repository activity throughout the week&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then something else happens: contribution to public and open source repositories increases. In places like Japan and Singapore, you keep contributing to open source projects until it’s time to go to sleep–and the day starts all over again.&lt;/p&gt;
+
+&lt;p&gt;At the end of the work week, you relax, recharge, and maybe spend some time on personal projects. Saturday and Sunday are the quietest days of the week on GitHub across all continents—but while lower than weekdays, contributions stay steady for both public and open sources repos.&lt;/p&gt;
+
+&lt;p&gt;In comparison, contributions to private repositories hit an all-time high during mid-week. And we see this same trend across all repositories, not just private. The greatest percentage of contributions happen on GitHub between Tuesday and Thursday.&lt;/p&gt;
+
+&lt;h3 id=&quot;holidays-and-breaks-during-the-year-by-region&quot;&gt;Holidays and breaks during the year by region&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48802848-34011a00-ecc5-11e8-8cfd-16a4012b262b.png&quot; alt=&quot;Activity in repositories throughout the year&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With several major holidays around the world coming soon, we’re now approaching the biggest indicator of activity on GitHub: seasonality.&lt;/p&gt;
+
+&lt;p&gt;No matter where you’re located, you’re giving yourself several breaks throughout the year–whether to celebrate with family or take that much-needed vacation.&lt;/p&gt;
+
+&lt;p&gt;We see changes across every region during different holiday seasons and (sometimes correlatingly) when students are out of school.&lt;/p&gt;
+
+&lt;p&gt;A few specific dates and times of year also stand out:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;January 1: As the first day of the year for countries that use the Gregorian calendar, New Year’s Day is the quietest day on GitHub annually.&lt;/li&gt;
+  &lt;li&gt;January and February: Activity slows down in Asia (and China in particular) between January and February, depending on when Chinese New Year falls.&lt;/li&gt;
+  &lt;li&gt;May 1: We see a change in overall activity the first week of May when around 80 countries celebrate Labor Day.&lt;/li&gt;
+  &lt;li&gt;October and November: Projects scale back in India, China, and other parts of Asia during Golden Week and Diwali. We also see a drop in activity in the U.S. during Thanksgiving.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;looking-forward&quot;&gt;Looking forward&lt;/h3&gt;
+
+&lt;p&gt;As exciting it is to see how you collaborated on GitHub over the last year, we’re also happy to find you’re taking time away. Through all the different ways that we work and celebrate around the world, one thing is for sure: everyone deserves a break.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Stay tuned for more posts that dive into data on the GitHub Blog—or check out our reports on &lt;a href=&quot;https://blog.github.com/2018-11-08-100M-repos/&quot;&gt;projects&lt;/a&gt; and &lt;a href=&quot;https://blog.github.com/2018-11-15-state-of-the-octoverse-top-programming-languages/&quot;&gt;programming languages&lt;/a&gt; to see what a community of 31 million developers can accomplish in a year.&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>The State of the Octoverse&#58; top programming languages of 2018</title>
+    <link href="https://blog.github.com/2018-11-15-state-of-the-octoverse-top-programming-languages/"/>
+    <updated>2018-11-15T00:00:00+00:00</updated>
+    <id>https://blog.github.com/state-of-the-octoverse-top-programming-languages</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48518889-e0538400-e81f-11e8-8232-30593d0ed859.png&quot; alt=&quot;Top programming languages on GitHub&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This article is part of a series based on our &lt;a href=&quot;https://octoverse.github.com&quot;&gt;2018 State of the Octoverse report&lt;/a&gt;—trends and insights into GitHub activity, the open source community, and more from the GitHub Data Science Team.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;At the core of every technology on GitHub is a programming language. In this year’s &lt;a href=&quot;https://octoverse.github.com/projects&quot;&gt;Octoverse report&lt;/a&gt;, we published a brief analysis of which ones were best represented or trending on GitHub. In this post, we’ll take a deeper dive into why—and where—top programming languages are popular.&lt;/p&gt;
+
+&lt;p&gt;There are dozens of ways to measure the popularity of a programming language. In our report, we used the number of unique contributors to public and private repositories tagged with the appropriate primary language. We also used the number of repositories created and tagged with the appropriate primary language.&lt;/p&gt;
+
+&lt;h3 id=&quot;top-programming-languages-by-repositories-created-2008-2018&quot;&gt;Top programming languages by repositories created, 2008-2018&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48519511-067a2380-e822-11e8-9a59-07d7810c1b5d.png&quot; alt=&quot;Top repositories, year over year, by number of repositories created&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Today, there are more repositories created in JavaScript than in any other language. Repositories created have been rising steadily for the last decade—and you’ll see a steady uptick after 2011. At this point, GitHub was approaching nearly 1 million repositories total, and new JavaScript servers like Node.js (launched in 2009) were making it possible for developers to use the same code for the client and the server.&lt;/p&gt;
+
+&lt;h3 id=&quot;top-programming-languages-by-contributors-as-of-september-30-2018&quot;&gt;Top programming languages by contributors as of September 30, 2018&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48518892-e0538400-e81f-11e8-97a3-9f5543d676ca.png&quot; alt=&quot;Top programming languages by contributor&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;JavaScript also tops our list for the language with the most contributors in public and private repositories. This is true for organizations of all sizes in every region of the world. However, we’ve also seen the rise of new languages on GitHub. TypeScript entered the top 10 programming languages for public, private, and open source repositories across all regions last year. And projects like &lt;a href=&quot;https://github.com/DefinitelyTyped/DefinitelyTyped&quot;&gt;DefinitelyTyped&lt;/a&gt; help people use common JavaScript libraries with TypeScript, encouraging its adoption.&lt;/p&gt;
+
+&lt;p&gt;We’ve also seen some languages decline in popularity. Ruby has dropped in rankings over the last few years. While the number of contributors coding in Ruby is still on the rise, other languages like JavaScript and Python have grown faster. New projects are less likely to be written in Ruby, especially projects owned by individual users or small organizations, and much more likely to be written in JavaScript, Java, or Python.&lt;/p&gt;
+
+&lt;h3 id=&quot;geographic-trends-in-languages-by-contributors-as-of-september-30-2018&quot;&gt;Geographic trends in languages by contributors as of September 30, 2018&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48518890-e0538400-e81f-11e8-800d-d058110fc1c5.png&quot; alt=&quot;Languages ranked by continent and number of contributor&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the last 12 months, we haven’t seen much variation in language usage across regions. However, TypeScript is higher ranked in South America and Africa than in North America and Europe. This might be because developer communities in Africa and South America are relatively newer. The repositories that were contributed to in Africa and South America in the last year are, on average, younger than repositories in North America and Europe. And perhaps this means they’re more likely to focus on newer developer technologies.&lt;/p&gt;
+
+&lt;h3 id=&quot;fastest-growing-languages-by-contributors-as-of-september-30-2018&quot;&gt;Fastest growing languages by contributors as of September 30, 2018&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48518894-e0ec1a80-e81f-11e8-8b75-e3ed0777fe60.png&quot; alt=&quot;Fastest growing languages by contributor&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;PowerShell, used in many projects owned by larger companies, is climbing our list. Similarly, Go, which has been on our lists for larger organizations, continues to grow across repository type: it’s #9 this year for open source repositories (and #7 overall). We’re also seeing trends toward more statically-typed languages focused on type safety and interoperability: Kotlin, TypeScript, and Rust are growing fast.&lt;/p&gt;
+
+&lt;p&gt;So what makes a programming language popular in 2018? Here’s what we think.&lt;/p&gt;
+
+&lt;h4 id=&quot;type-safety&quot;&gt;Type safety&lt;/h4&gt;
+&lt;p&gt;With the exception of Python, we’ve seen a rise in static typing, likely because of the security and efficiency it offers individual developers and teams working on larger applications. TypeScript’s optional static typing adds an element of safety, and Kotlin, in particular, offers greater interactivity, all while creating trustworthy, type-safe programs.&lt;/p&gt;
+
+&lt;h4 id=&quot;interoperability&quot;&gt;Interoperability&lt;/h4&gt;
+&lt;p&gt;Part of the reason TypeScript has climbed our rankings is because of its ability to coexist and integrate with JavaScript. Rust and Kotlin are also on the rise, both of which find built-in audiences in C and Java, respectively. Python’s versatility and interoperability are also impressive; for example, &lt;a href=&quot;https://github.com/tensorflow/swift/blob/master/docs/DesignOverview.md#python-interoperability&quot;&gt;developers can directly call Python APIs from Swift&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Interoperability doesn’t only imply that languages have a pre-existing community to use and build on them. It also means that they can transcend and intermingle with different communities. For example, Kotlin was acknowledged as a first-class citizen on the Android platform last year.&lt;/p&gt;
+
+&lt;h4 id=&quot;open-source&quot;&gt;Open source&lt;/h4&gt;
+&lt;p&gt;And, of course, these languages are also open source projects, actively maintained on GitHub. Communities that evolve, answer questions, and create resources for newer languages like Kotlin can help developers start and continue working with them in 2018 and beyond.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Are you as excited about data as we are? Check out other posts from our State of the Octoverse series on &lt;a href=&quot;https://blog.github.com/2018-11-08-regional-spotlight-nigeria/&quot;&gt;trending regions&lt;/a&gt; and &lt;a href=&quot;https://blog.github.com/2018-11-08-100M-repos/&quot;&gt;repositories&lt;/a&gt;. Or tune into the GitHub Blog for more insights from our Data Science Team.&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>Happy second birthday to Code.gov</title>
+    <link href="https://blog.github.com/2018-11-09-happy-birthday-codegov/"/>
+    <updated>2018-11-09T00:00:00+00:00</updated>
+    <id>https://blog.github.com/happy-birthday-codegov</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/41764265/48202193-301ee080-e332-11e8-8067-03f99823d786.png&quot; alt=&quot;Happy birthday, Code.gov!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As we celebrate &lt;a href=&quot;https://code.gov&quot;&gt;Code.gov&lt;/a&gt;’s second birthday, it seems like just yesterday Alvand Salehi was &lt;a href=&quot;https://youtu.be/u9s_W8lCrDU?t=1943&quot;&gt;introducing Code.gov from the main stage at GitHub Universe&lt;/a&gt;. But now two years and over 5,200 projects later, Code.gov (and the &lt;a href=&quot;https://sourcecode.cio.gov&quot;&gt;Federal Source Code policy&lt;/a&gt; that created it) are starting to hit their stride. I wanted to take this opportunity to highlight some of the exciting government projects currently on GitHub, and dive into the data around how the government community uses GitHub to collaborate.  Like the Code.gov team says, “[we] believe in innovation, and are passionate in making these open source projects all available to you.”&lt;/p&gt;
+
+&lt;h2 id=&quot;government-and-open-source&quot;&gt;Government and open source&lt;/h2&gt;
+
+&lt;p&gt;Out of the 4,800 publicly accessible government projects on Code.gov, more than 3,600 (or 75 percent) are hosted on GitHub.com. This makes sense, as the majority of the world’s open source already on GitHub. However, it’s also a pretty big deal. Government agencies like NASA and the U.S. Army are using GitHub to share their tools and resources with the greater open source community around the world. Take NASA’s 3D Resources project, for example.&lt;/p&gt;
+
+&lt;p&gt;Interested in textures, models, and images from NASA itself? The &lt;a href=&quot;https://github.com/nasa/NASA-3D-Resources&quot;&gt;NASA-3D-Resources&lt;/a&gt; repository has it all, including pictures of &lt;a href=&quot;https://github.com/nasa/NASA-3D-Resources/blob/master/Images%20and%20Textures/Earth%20-%20Apollo/as10-34-5013.jpg&quot;&gt;earth from the Apollo missions&lt;/a&gt; and &lt;a href=&quot;https://github.com/nasa/NASA-3D-Resources/blob/master/3D%20Models/Clementine/clementine_thumb.png&quot;&gt;models of the satellite&lt;/a&gt; used in the Clementine mission.&lt;/p&gt;
+
+&lt;p&gt;You can’t 3D print your own Mars rover—yet. But with contributors like the NASA Jet Propulsion Laboratory and NASA Goddard Space Flight Center, “yet” may definitely be the operative word.&lt;/p&gt;
+
+&lt;p&gt;Another exciting government  project is &lt;a href=&quot;https://github.com/zfsonlinux/zfs&quot;&gt;ZFS&lt;/a&gt;, a file system released by the Department of Energy that runs specifically on Linux. This open source project has not only been embraced by other agencies, but has been adopted by private companies as part of their day-to-day operations.&lt;/p&gt;
+
+&lt;p&gt;Notable adopters of ZFS on Linux include GE Healthcare Systems, Intel, and Netflix. As for the Lawrence Livermore National Laboratory (LLNL)—the research facility answering to the Department of Energy and those behind this OSS—they continue to utilize ZFS, and continue to develop and improve the platform. LLNL is working closely with Intel to use a variation of ZFS-ZFS+Lustre—to manage the first planned U.S. exascale system, Aurora. Aurora is capable of a billion-billion calculations per second. (Yes, a billion-billion.) Aurora is slated for 2021 at Argonne National Lab.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-the-government-community-uses-github&quot;&gt;How the government community uses GitHub&lt;/h2&gt;
+
+&lt;p&gt;Aside from how the government is sharing projects, we also took a look at the numbers to find out how the community is using GitHub to collaborate on these projects.&lt;/p&gt;
+
+&lt;h3 id=&quot;top-10-projects-by-stars&quot;&gt;Top 10 projects by stars&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Ranking&lt;/th&gt;
+      &lt;th&gt;Project&lt;/th&gt;
+      &lt;th&gt;#&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/nasa/openmct&quot;&gt;nasa/openmct&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;5282&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/USArmyResearchLab/Dshell&quot;&gt;USArmyResearchLab/Dshell&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;5098&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/scipy/scipy&quot;&gt;scipy/scipy&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;5079&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/nasa/NASA-3D-Resources&quot;&gt;nasa/NASA-3D-Resources&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1422&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/GSA/data&quot;&gt;GSA/data&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1353&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/GSA/data.gov&quot;&gt;GSA/data.gov&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1278&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/Code-dot-mil/code.mil&quot;&gt;Code-dot-mil/code.mil&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1229&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/openscenegraph/OpenSceneGraph&quot;&gt;openscenegraph/OpenSceneGraph&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1177&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/WhiteHouse/petitions&quot;&gt;WhiteHouse/petitions&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1777&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/NREL/api-umbrella&quot;&gt;NREL/api-umbrella&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1172&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;top-10-projects-by-forks&quot;&gt;Top 10 projects by forks&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Ranking&lt;/th&gt;
+      &lt;th&gt;Project&lt;/th&gt;
+      &lt;th&gt;#&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/scipy/scipy&quot;&gt;scipy/scipy&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;2556&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/USArmyResearchLab/Dshell&quot;&gt;USArmyResearchLab/Dshell&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1164&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/openscenegraph/OpenSceneGraph&quot;&gt;openscenegraph/OpenSceneGraph&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;720&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/nasa/openmct&quot;&gt;nasa/openmct&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;585&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/spack/spack&quot;&gt;spack/spack&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;539&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/lammps/lammps&quot;&gt;lammps/lammps&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;534&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/idaholab/moose&quot;&gt;idaholab/moose&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;460&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/WhiteHouse/petitions&quot;&gt;WhiteHouse/petitions&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;373&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/GSA/data.gov&quot;&gt;GSA/data.gov&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;356&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/materialsproject/pymatgen&quot;&gt;materialsproject/pymatgen&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;309&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;top-10-projects-by-watchers&quot;&gt;Top 10 projects by watchers&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Ranking&lt;/th&gt;
+      &lt;th&gt;Project&lt;/th&gt;
+      &lt;th&gt;#&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/USArmyResearchLab/Dshell&quot;&gt;USArmyResearchLab/Dshell&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;673&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/scipy/scipy&quot;&gt;scipy/scipy&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;312&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/GSA/data.gov&quot;&gt;GSA/data.gov&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;251&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/nasa/openmct&quot;&gt;nasa/openmct&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;233&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/nasa/NASA-3D-Resources&quot;&gt;nasa/NASA-3D-Resources&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;220&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/WhiteHouse/petitions&quot;&gt;WhiteHouse/petitions&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;214&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/openscenegraph/OpenSceneGraph&quot;&gt;openscenegraph/OpenSceneGraph&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;201&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/18F/api-standards&quot;&gt;18F/api-standards&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;173&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/nsacyber/Windows-Secure-Host-Baseline&quot;&gt;nsacyber/Windows-Secure-Host-Baseline&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;172&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/Code-dot-mil/code.mil&quot;&gt;Code-dot-mil/code.mil&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;169&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;top-10-projects-by-contributors&quot;&gt;Top 10 projects by contributors&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Ranking&lt;/th&gt;
+      &lt;th&gt;Project&lt;/th&gt;
+      &lt;th&gt;#&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/scipy/scipy&quot;&gt;scipy/scipy&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;669&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/trilinos/Trilinos&quot;&gt;trilinos/Trilinos&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;197&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/SchedMD/slurm&quot;&gt;SchedMD/slurm&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;162&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/18F/18f.gsa.gov&quot;&gt;18F/18f.gsa.gov&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;139&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/Kitware/ParaView&quot;&gt;Kitware/ParaView&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;136&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/GSA/wordpress-seo&quot;&gt;GSA/wordpress-seo&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;119&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/department-of-veterans-affairs/vets-website&quot;&gt;department-of-veterans-affairs/vets-website&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;116&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/idaholab/moose&quot;&gt;idaholab/moose&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;114&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/materialsproject/pymatgen&quot;&gt;materialsproject/pymatgen&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;113&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/petsc/petsc&quot;&gt;petsc/petsc&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;113&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;and-more&quot;&gt;And more&lt;/h3&gt;
+
+&lt;p&gt;Our top 10 findings are just a few examples of how government projects use GitHub. Looking deeper into the data can tell us even more about how they contribute to the entire open source community. With thousands on thousands of commits, many have sparked the attention of both the public and private sector:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;From the Environmental Protection Agency, &lt;a href=&quot;https://github.com/USEPA/WNTR&quot;&gt;WNTR&lt;/a&gt; (pronounced “winter”) is a Python package designed to simulate and analyze resilience of water distribution networks.&lt;/li&gt;
+  &lt;li&gt;The Department of Transportation’s &lt;a href=&quot;https://github.com/usdot-jpo-ode/jpo-ode&quot;&gt;ITS ODE&lt;/a&gt; offers real-time data to a network of vehicles, infrastructure, and traffic management centers, providing logistics to subscribing transportation management applications and other similar devices.&lt;/li&gt;
+  &lt;li&gt;Then there is &lt;a href=&quot;https://github.com/nsacyber/WALKOFF&quot;&gt;Walkoff&lt;/a&gt;, from the National Security Agency, enabling security teams to automate and integrate apps, workflows, and analytics tools.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is what Code.gov is all about. All of the government projects we’ve mentioned in this post are designated as open source. That means that you can access a repo, test, debug, submit pull requests, or download your own copy and adapt it for your own use.&lt;/p&gt;
+
+&lt;p&gt;As the Code.gov team has shared with us, they believe in innovation and providing everyone the opportunity to perform a civic duty on a digital platform. They’re passionate about making these open source government projects available for all. This spirit is embodied in their hashtag, seen often on their Twitter account: #CodeOn. The invitation to reach out to them on Twitter or LinkedIn is always open, and we highly encourage you to do so.&lt;/p&gt;
+
+&lt;p&gt;Want to learn more about &lt;a href=&quot;https://code.gov&quot;&gt;Code.gov&lt;/a&gt;? Follow them on &lt;a href=&quot;https://medium.com/codedotgov&quot;&gt;Medium&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/codedotgov&quot;&gt;Twitter&lt;/a&gt;. You can also see &lt;a href=&quot;https://government.github.com&quot;&gt;what else GitHub is doing to help governments&lt;/a&gt; across the country and around the world.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Open source helps people create new and exciting things every day—including the code we used to collect data for this post. Check it out &lt;a href=&quot;https://github.com/jbjonesjr/govstats&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>Thank you for 100 million repositories</title>
+    <link href="https://blog.github.com/2018-11-08-100M-repos/"/>
+    <updated>2018-11-08T14:10:00+00:00</updated>
+    <id>https://blog.github.com/100M-repos</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/29592817/47944318-a81b7f80-dec8-11e8-850b-f646766a568f.png&quot; alt=&quot;Thank you for 100M repos&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Today we reached a major milestone: 100 million repositories now live on GitHub. Powering this number is an incredible community. Together, you’re 31 million developers from nearly every country and territory in the world, collaborating across 1.1 billion contributions.&lt;/p&gt;
+
+&lt;p&gt;Repositories are where you store code, but they represent much more: ideas, experiments, curiosity, and moments of inspiration. To celebrate, let’s take a look at a few trends and achievements, a core sample of what’s possible when we work together by the millions.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-behind-100-million&quot;&gt;What’s behind 100 million?&lt;/h2&gt;
+&lt;p&gt;To put this milestone into perspective, we totaled only about 33,000 repositories in 2008. Today, we’re seeing an average of 1.6 repositories created every second. In fact, nearly one third of all repositories were created in the last year alone—all thanks to the developers who choose to host, build, and share their work on GitHub.&lt;/p&gt;
+
+&lt;p&gt;Over the last 10 years, it’s been a pleasure to watch impactful projects build and grow on GitHub. &lt;a href=&quot;https://weblog.rubyonrails.org/2008/4/2/rails-is-moving-from-svn-to-git/&quot;&gt;Rails moved to Git and GitHub&lt;/a&gt; while the platform was still in private beta, and Node.js launched on GitHub in 2009. Since then, we’ve also had the opportunity to host Swift, .NET, and Python. Supported by thousands of contributors, these projects are raising the bar for how developer tools evolve and engage with their communities.&lt;/p&gt;
+
+&lt;p&gt;Just this year, we’ve seen countless projects take off, started by individuals and larger teams alike. Projects like &lt;a href=&quot;https://github.com/DefinitelyTyped/DefinitelyTyped&quot;&gt;Definitely Typed&lt;/a&gt;, &lt;a href=&quot;https://github.com/godotengine/godot&quot;&gt;Godot&lt;/a&gt;, &lt;a href=&quot;https://github.com/kubernetes/kubernetes&quot;&gt;Kubernetes&lt;/a&gt;, &lt;a href=&quot;https://github.com/pytorch/pytorch&quot;&gt;PyTorch&lt;/a&gt;, and more climbed our lists of &lt;a href=&quot;https://octoverse.github.com/projects&quot;&gt;top and fastest growing projects&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;top-open-source-projects&quot;&gt;Top open source projects&lt;/h3&gt;
+&lt;p&gt;Projects on this year’s lists have a theme: they make it easier to build software, whether through code editing, automation, containerization, or documentation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48171678-d971c200-e2b1-11e8-8ee6-398362951153.png&quot; alt=&quot;Top OS projects in 2018&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;fastest-growing-open-source-projects&quot;&gt;Fastest growing open source projects&lt;/h3&gt;
+&lt;p&gt;In the last year, we saw trends in growth of projects related to machine learning, game development, 3D printing, home automation, data analysis, and full-stack JavaScript development.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48171749-25246b80-e2b2-11e8-92bd-33b2ab694e3e.png&quot; alt=&quot;Fastest growing OS projects in 2018&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;popular-repository-topics&quot;&gt;Popular repository topics&lt;/h3&gt;
+&lt;p&gt;This year, the open source repositories you’ve created span thousands of topics, but these are the ones you contributed to the most:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48171817-66b51680-e2b2-11e8-99f2-3467c803a7b1.png&quot; alt=&quot;Top topics tagged in 2018&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Topics in front and backend JavaScript, machine learning, mobile app development, and containerization represent some of the most powerful trends in open source software in the last 12 months. In 2017, topics like “game”, “deep learning”, and “library” were also trending.&lt;/p&gt;
+
+&lt;h3 id=&quot;where-repositories-are-created&quot;&gt;Where repositories are created&lt;/h3&gt;
+&lt;p&gt;GitHub started with a small group of developers looking to solve a specific problem—now it’s home to a global open source community. And we’re seeing the proportion of open source contributors outside the U.S. grow every year.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48171911-b398ed00-e2b2-11e8-8a2a-e2a817e8abc3.png&quot; alt=&quot;Contributors from the US and outside of the US&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a continent, more repositories are coming from Asia than anywhere else in the world. More specifically, repository creation has picked up across Central Asia, the Middle East, and Africa. While there’s an increase in repositories from developed countries, we’re seeing the same trend in emerging countries as new tech communities grow and new technologies becoming more accessible.&lt;/p&gt;
+
+&lt;p&gt;Developers in Egypt, in particular, created twice as many public and private repositories this year. And in Nigeria, a growing developer community created 1.7x more open source repositories in 2018 than in 2017. To see why we think Nigeria has a tech community to watch, read our &lt;a href=&quot;https://blog.github.com/2018-11-08-regional-spotlight-nigeria/&quot;&gt;latest post on the region&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;fastest-growing-countries-by-repositories-created-as-of-september-30&quot;&gt;Fastest growing countries by repositories created (as of September 30)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48172025-125e6680-e2b3-11e8-9eb2-898b2ea5cc39.png&quot; alt=&quot;Fastest growing countries by repos created&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;fastest-growing-countries-by-open-source-repositories-created-as-of-september-30&quot;&gt;Fastest growing countries by open source repositories created (as of September 30)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48172083-48034f80-e2b3-11e8-9fdf-d5fe3934c28a.png&quot; alt=&quot;Fastest growing countries by open source repos created&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;thank-you&quot;&gt;Thank you&lt;/h2&gt;
+&lt;p&gt;After 10 years and 100 million repositories, we’re only just getting started. Thanks to our users, we’re building something bigger than any single repository or project—a community that’s pushing software forward in tangible ways. So thank you for building with us now and in the years to come. We can’t wait to see what you build together in the next 100 million.&lt;/p&gt;
+
+&lt;p&gt;Interested in seeing more insights into the GitHub community? Check out this year’s &lt;a href=&quot;https://octoverse.github.com&quot;&gt;State of the Octoverse report&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+  </entry><entry>
+    <title>Octoverse regional spotlight on Nigeria</title>
+    <link href="https://blog.github.com/2018-11-08-regional-spotlight-nigeria/"/>
+    <updated>2018-11-08T14:05:00+00:00</updated>
+    <id>https://blog.github.com/regional-spotlight-nigeria</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/48172801-0b852300-e2b6-11e8-9502-51de78a64ad6.png&quot; alt=&quot;Regional spotlight: Nigeria&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This article is the first in a series based on The State of Octoverse—trends and insights into GitHub activity, the open source community, and more from the GitHub Data Science Team.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In February, &lt;a href=&quot;https://blog.github.com/2018-02-21-africa-nigeria-and-their-growing-tech-communities/&quot;&gt;we reflected&lt;/a&gt; on a trip to Nigeria and everything we learned about its growing tech community. Economic changes, expanding educational opportunities, and wider internet access are mobilizing a talented and entrepreneurial community. And together, they’re pushing software forward in Africa’s largest economy.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-growing-developer-community&quot;&gt;A growing developer community&lt;/h2&gt;
+&lt;p&gt;On our trip, we saw this changing landscape close up at packed meetups and student groups. In our &lt;a href=&quot;https://octoverse.github.com&quot;&gt;2018 Octoverse Report&lt;/a&gt;, the numbers were clear. Across several measures, the developer community in Nigeria is growing fast. In 2018 alone, we’ve seen:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1.6x more developers contributing on GitHub.* Nigeria represents the fourth fastest growing developer community on GitHub with 1.6x as many contributors in 2018 than in 2017.&lt;/li&gt;
+  &lt;li&gt;2.1x more organizations. Nigeria is high on our list of fastest growing countries by organizations created with 2.1x more organizations created this year than last year.&lt;/li&gt;
+  &lt;li&gt;1.8x more repositories and 1.7x more open source repositories. Nigeria also made our list of fastest growing countries by repositories created, nearly doubling the number of projects they’re collaborating on.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To learn more about our data and methodologies, check out this year’s &lt;a href=&quot;https://octoverse.github.com&quot;&gt;State of the Octoverse&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;*&lt;em&gt;We define contributors broadly as any user taking a substantive action on GitHub (pushed code, opened an issue, or merged a pull request, for example) that added new content to the platform in a public or private repository.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;growth-behind-the-numbers&quot;&gt;Growth behind the numbers&lt;/h2&gt;
+
+&lt;h3 id=&quot;an-important-startup-ecosystem&quot;&gt;An important startup ecosystem&lt;/h3&gt;
+&lt;p&gt;Behind our numbers is a young, growing community excited about software development and its potential to address some of the challenges Nigeria faces today. With excitement and opportunity comes an expanding startup ecosystem and the venture capital, accelerators, training programs, and hubs to support it.&lt;/p&gt;
+
+&lt;p&gt;Nigerian startups are growing accordingly across industries. The fintech industry is booming in particular, as a result of a changing financial landscape. According to Stephen O’Grady, Principal Analyst at Red Monk:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In 2016 and 2017, 42 percent of Nigerians had access to traditional financial services, which has lead to growth in projects that have tried to bring these to the Nigerian population. Without existing infrastructure, they have the opportunity to take the next step forward.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Nigeria still relies heavily on cash, but fintech companies like &lt;a href=&quot;https://amplifypay.com/&quot;&gt;AmplifyPay&lt;/a&gt;, &lt;a href=&quot;https://www.mypaga.com/&quot;&gt;Paga&lt;/a&gt;, and &lt;a href=&quot;https://paystack.com/&quot;&gt;PayStack&lt;/a&gt; (which you can find &lt;a href=&quot;https://github.com/PaystackHQ&quot;&gt;on GitHub&lt;/a&gt;) are streamlining the way people bank and gaining tens of thousands of individual and business users. With millions of dollars raised, these companies underscore an investment trend that has spread across African tech ecosystems, reaching a high of &lt;a href=&quot;http://disrupt-africa.com/funding-report/&quot;&gt;$195 million&lt;/a&gt; in 2017 alone. These startups have also spurred local developers to build an ecosystem of applications and integrations.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-supportive-student-community&quot;&gt;A supportive student community&lt;/h3&gt;
+&lt;p&gt;Through GitHub Education and our global group of Campus Experts, we’ve had the opportunity to support Nigerian students building tech communities that train and mentor new developers within their schools. So far, we’ve watched local Campus Experts create summer coding camps for women, host and speak at &lt;a href=&quot;https://www.nacoss.org.ng/software-summit-2018&quot;&gt;national software summits&lt;/a&gt; with 1,000+ attendees, organize open source meetups, and more.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://githubcampus.expert/&quot;&gt;Learn more about our Campus Experts program&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We’re excited to see what Nigeria’s growing developer community builds on GitHub into 2019 and beyond. Want to learn more? GitHub Data Scientist Anna Filippova and Red Monk Principal Analyst Stephen O’Grady chatted about why Nigeria is trending in a recent GitHub Universe session.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NFL9TLHHmDA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;em&gt;Stay tuned for more posts that dive into data on the GitHub Blog—or check out &lt;a href=&quot;https://octoverse.github.com&quot;&gt;The State of the Octoverse&lt;/a&gt; to see what a community of 31 million developers can accomplish in a year.&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>Suggested changes—what we've learned so far</title>
+    <link href="https://blog.github.com/2018-11-01-suggested-changes-update/"/>
+    <updated>2018-11-01T21:34:24+00:00</updated>
+    <id>https://blog.github.com/suggested-changes-update</id>
+    <content type="html">&lt;p&gt;Two weeks ago we released suggested changes, a feature that allows you to suggest changes to code in a pull request. Once changes are suggested, the author or assignees can accept (and commit) suggestions with the click of a button.&lt;/p&gt;
+
+&lt;h3 id=&quot;before&quot;&gt;Before&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/602352/47467403-3eaeb900-d7c4-11e8-9c57-b4cca4a26937.png&quot; alt=&quot;A code review comment before suggested changes&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;after&quot;&gt;After&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/602352/47467407-41a9a980-d7c4-11e8-9374-acb6a7c43b00.png&quot; alt=&quot;A code review comment with a suggested change&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since its release, more than 10 percent of all reviewers suggested at least one change, totaling over 100,000 suggestions—and nearly four percent of all review comments created included a suggestion. Based on these early numbers, we see you’re quick to adopt suggested changes and make them a natural part of your code review workflow.&lt;/p&gt;
+
+&lt;p&gt;Between the number of suggestions created and the feedback we received from over 2,500 people who have used the feature, you’ve helped us understand what we can improve moving forward.&lt;/p&gt;
+
+&lt;p&gt;By far the most frequent requests were:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The ability to suggest changes to multiple lines at once.&lt;/li&gt;
+  &lt;li&gt;The ability to accept multiple changes in a single commit.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We want to make suggested changes the best feature it can possibly be. Your feedback is valuable and will inform our next steps. Until then, we encourage you to try out suggested changes and &lt;a href=&quot;https://www.research.net/r/SuggestedChanges&quot;&gt;tell us what you think&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>Git Submodule Vulnerability Announced</title>
+    <link href="https://blog.github.com/2018-10-05-git-submodule-vulnerability/"/>
+    <updated>2018-10-05T00:00:00+00:00</updated>
+    <id>https://blog.github.com/git-submodule-vulnerability</id>
+    <content type="html">&lt;p&gt;The Git project has &lt;a href=&quot;https://public-inbox.org/git/xmqqy3bcuy3l.fsf@gitster-ct.c.googlers.com/T&quot;&gt;disclosed&lt;/a&gt; CVE-2018-17456, a vulnerability in Git that can cause arbitrary code to be executed when a user clones a malicious repository. &lt;a href=&quot;https://public-inbox.org/git/xmqqpnwouxz1.fsf@gitster-ct.c.googlers.com/&quot;&gt;Git v2.19.1&lt;/a&gt; has been released with a fix, along with backports in v2.14.5, v2.15.3, v2.16.5, v2.17.2, and v2.18.1. We encourage all users to update their clients to protect themselves.&lt;/p&gt;
+
+&lt;p&gt;Until you’ve updated, you can protect yourself by avoiding submodules from untrusted repositories. This includes commands such as &lt;code class=&quot;highlighter-rouge&quot;&gt;git clone --recurse-submodules&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;git submodule update&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;affected-products&quot;&gt;Affected products&lt;/h2&gt;
+
+&lt;h3 id=&quot;github-desktop&quot;&gt;GitHub Desktop&lt;/h3&gt;
+&lt;p&gt;GitHub Desktop versions 1.4.1 and older included an embedded version of Git that was affected by this vulnerability. We encourage all GitHub Desktop users to update to the newest version (1.4.2 and 1.4.3-beta0) available today in the Desktop app.&lt;/p&gt;
+
+&lt;h3 id=&quot;atom&quot;&gt;Atom&lt;/h3&gt;
+&lt;p&gt;Atom included the same embedded Git and was also affected. Releases 1.31.2 and 1.32.0-beta3 include the patch.&lt;/p&gt;
+
+&lt;p&gt;Ensure you’re on the latest Atom release by completing any of the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Windows: From the toolbar, click &lt;strong&gt;Help&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Check for Updates&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;MacOS: From the menu bar, click &lt;strong&gt;Atom&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Check for Update&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Linux: Update manually by downloading the latest release from &lt;a href=&quot;https://flight-manual.atom.io/getting-started/sections/installing-atom/#installing-atom-on-linux&quot;&gt;atom.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;git-on-the-command-line-and-other-clients&quot;&gt;Git on the command line and other clients&lt;/h3&gt;
+&lt;p&gt;In order to be protected from the vulnerability, you must update your command-line version of Git, and any other application that may include an embedded version of Git, as they are independent of each other.&lt;/p&gt;
+
+&lt;h3 id=&quot;additional-notes&quot;&gt;Additional notes&lt;/h3&gt;
+&lt;p&gt;Neither GitHub.com nor GitHub Enterprise are directly affected by the vulnerability. However, as with previously discovered vulnerabilities, GitHub.com will detect malicious repositories, and will reject pushes or API requests attempting to create them. Versions of GitHub Enterprise with this detection will ship on October 9.&lt;/p&gt;
+
+&lt;h2 id=&quot;details-of-the-vulnerability&quot;&gt;Details of the vulnerability&lt;/h2&gt;
+
+&lt;p&gt;This vulnerability is very similar to CVE-2017-1000117, as both are option-injection attacks related to submodules. In the earlier attack, a malicious repository would ship a &lt;code class=&quot;highlighter-rouge&quot;&gt;.gitmodules&lt;/code&gt; file pointing one of its submodules to a remote repository with an SSH host starting with a dash (&lt;code class=&quot;highlighter-rouge&quot;&gt;-&lt;/code&gt;). The &lt;code class=&quot;highlighter-rouge&quot;&gt;ssh&lt;/code&gt; program—spawned by Git—would then interpret that as an option. This attack works in a similar way, except that the option-injection is against the child &lt;code class=&quot;highlighter-rouge&quot;&gt;git clone&lt;/code&gt; itself.&lt;/p&gt;
+
+&lt;p&gt;The problem was reported on September 23 by &lt;a href=&quot;https://bounty.github.com/researchers/joernchen.html&quot;&gt;@joernchen&lt;/a&gt;, both to Git’s private security list, as well as to GitHub’s &lt;a href=&quot;https://bounty.github.com/&quot;&gt;Bug Bounty&lt;/a&gt; program. Developers at GitHub worked with the Git community to develop a fix.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/git/git/commit/98afac7a7cefdca0d2c4917dd8066a59f7088265&quot;&gt;basic fix&lt;/a&gt; was clear from the report. However, due to to the similarity to CVE-2017-1000117, we also audited all of the &lt;code class=&quot;highlighter-rouge&quot;&gt;.gitmodules&lt;/code&gt; values and implemented &lt;a href=&quot;https://github.com/git/git/compare/98afac7a7cefdca0d2c4917dd8066a59f7088265...273c61496f88c6495b886acb1041fe57965151da&quot;&gt;stricter checks&lt;/a&gt; as appropriate. These checks should prevent a similar vulnerability in another code path. We also implemented &lt;a href=&quot;https://github.com/git/git/compare/e43aab778c72250e11eb00e31dc6be90072a1637...1a7fd1fb2998002da6e9ff2ee46e1bdd25ee8404&quot;&gt;detection&lt;/a&gt; of potentially malicious submodules as part of Git’s object quality checks (which was made much easier by &lt;a href=&quot;https://github.com/git/git/compare/eedd5949f5a6b1bb86726051d0916421cdbb5dcd...b7b1fca175f1ed7933f361028c631b9ac86d868d&quot;&gt;the infrastructure&lt;/a&gt; added during the last submodule-related vulnerability).&lt;/p&gt;
+
+&lt;p&gt;The coordinated disclosure date of October 5 was selected by Git developers to allow packagers to prepare for the release. This also provided hosting sites (with custom implementations) ample time to detect and block the attack before it became public. Members of the Git community checked the JGit and libgit2 implementations. Those are not affected by the vulnerability because they clone submodules via function calls rather than separate commands.&lt;/p&gt;
+
+&lt;p&gt;We were also able to use the time to scan all repositories on GitHub for evidence of the attack being used in the wild. We’re happy to report that no instances were found (and now, with our detection, none can be added).&lt;/p&gt;
+
+&lt;p&gt;Please update your copy of Git soon, and happy cloning!&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>A year of GitHub Desktop on Electron</title>
+    <link href="https://blog.github.com/2018-05-02-everyones-moving-to-github-desktop/"/>
+    <updated>2018-05-02T10:00:00+00:00</updated>
+    <id>https://blog.github.com/everyones-moving-to-github-desktop</id>
+    <content type="html">&lt;p&gt;We announced the public beta of the open source, Electron-built version of &lt;a href=&quot;https://desktop.github.com&quot;&gt;GitHub Desktop&lt;/a&gt; a year ago, giving the GitHub community a unified GitHub experience for macOS and Windows. With every release, including the &lt;a href=&quot;https://blog.github.com/2017-09-19-announcing-github-desktop-1-0/&quot;&gt;version 1.0&lt;/a&gt; in September 2017, we’ve seen more people using GitHub Desktop to improve their workflows. Less than six months after 1.0 was released, more Desktop users were using the Electron-based version than both the classic versions for Mac and Windows combined.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/2695116/39274909-7c70459e-48b1-11e8-8612-48d140960c39.png&quot; alt=&quot;Desktop usage graphic&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since its initial release, we’ve &lt;a href=&quot;https://desktop.github.com/release-notes/&quot;&gt;added more features&lt;/a&gt; to GitHub Desktop, including support for additional external editors, syntax highlighting support for additional languages, support for adding co-authors to commits, and the ability to view and checkout pull requests from collaborators or forks. Many of these new features were contributions from the open source community.&lt;/p&gt;
+
+&lt;p&gt;Starting today, if you’re still using the classic app, you’ll see in-app notifications suggesting an upgrade to the new GitHub Desktop with &lt;a href=&quot;http://desktop.github.com/upgrade/classic&quot;&gt;information on what’s changed&lt;/a&gt;. If you are still using GitHub for Mac or GitHub for Windows, or if you’ve never used our desktop apps, &lt;a href=&quot;https://desktop.github.com&quot;&gt;try out the new GitHub Desktop&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>How security alerts are keeping your code safer</title>
+    <link href="https://blog.github.com/2018-03-21-security-alerting-a-first-look-at-community-responses/"/>
+    <updated>2018-03-21T00:00:00+00:00</updated>
+    <id>https://blog.github.com/security-alerting-a-first-look-at-community-responses</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/29592817/36836206-97565a64-1ced-11e8-990f-d12cb4b003e5.png&quot; alt=&quot;databanner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As more developers draw from existing code libraries to build new tools, tracking changes in dependencies like security vulnerabilities has become more difficult. Since the launch of &lt;a href=&quot;https://github.com/blog/2470-introducing-security-alerts-on-github&quot;&gt;security alerts&lt;/a&gt; last year, we’ve taken an active role in alerting project maintainers of known-vulnerable libraries in RubyGems for Ruby and npm for Javascript. In almost all cases, there’s a new, patched version of the library we can recommend in the alert. Here’s a summary of how security alerts have been used to protect your code so far.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-does-known-vulnerable-mean&quot;&gt;What does “known-vulnerable” mean?&lt;/h2&gt;
+
+&lt;p&gt;In the security community, there are standardized and shared lists of vulnerabilities. The most comprehensive of these is &lt;a href=&quot;https://cve.mitre.org/&quot;&gt;Common Vulnerabilities and Exposures&lt;/a&gt; (CVEs). The security community works together to document vulnerabilities consistently and shares them in this list. GitHub’s security alerts notify you when Ruby and Javascript library vulnerabilities from the list are detected in your repositories.&lt;/p&gt;
+
+&lt;h2 id=&quot;security-alerts-at-work&quot;&gt;Security alerts at work&lt;/h2&gt;
+
+&lt;p&gt;Initially, we took our list of vulnerable libraries and compared it to the &lt;a href=&quot;https://github.com/blog/2447-a-more-connected-universe&quot;&gt;dependency graphs&lt;/a&gt; of all public repositories. We found over four million vulnerabilities in over 500,000 repositories and displayed an alert to repository admins in their dependency graphs and repository home pages (for Ruby and Javascript).&lt;/p&gt;
+
+&lt;p&gt;By December 1 and shortly after we launched, over 450,000 identified vulnerabilities were resolved by repository owners either removing the dependency or changing to a secure version. Since then, our rate of vulnerabilities resolved in the first seven days of detection has been about 30 percent. Additionally, 15 percent of alerts are dismissed within seven days—that means nearly half of all alerts are responded to within a week. Of the remaining alerts that are unaddressed or unresolved, the majority belong to repositories that have not had a contribution in the last 90 days.&lt;/p&gt;
+
+&lt;p&gt;In other words, for almost all repositories with recent contributions, we see maintainers patching vulnerabilities in &lt;em&gt;fewer than seven days&lt;/em&gt;. With the recent launch of our regular &lt;a href=&quot;https://help.github.com/articles/choosing-the-delivery-method-for-your-notifications/#choosing-the-delivery-method-for-security-alerts-for-vulnerable-dependencies&quot;&gt;vulnerability digest emails&lt;/a&gt;, we’re working to make this even easier for maintainers and security teams.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next&lt;/h2&gt;
+
+&lt;p&gt;Security alerts are opening the door to new ways we can improve code checking and generation by combining publicly available data with GitHub’s unique data set. And this is just the beginning—we’ve got more ways to help you keep code safer on the way!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/about-security-alerts-for-vulnerable-dependencies/&quot;&gt;Learn more about security alerts&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>Open source project trends for 2018</title>
+    <link href="https://blog.github.com/2018-02-08-open-source-project-trends-for-2018/"/>
+    <updated>2018-02-08T18:17:04+00:00</updated>
+    <id>https://blog.github.com/open-source-project-trends-for-2018</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/33667880-20b7bc72-da6c-11e7-8c48-3c8d87123488.png&quot; alt=&quot;Project trends&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Last year, GitHub brought 24 million people from almost 200 countries together to code better and build bigger. From frameworks to data visualizations across more than 25 million repositories, &lt;a href=&quot;https://octoverse.github.com/&quot;&gt;you were busy in 2017&lt;/a&gt;—and the activity is picking up even more this year. With 2018 well underway, we’re using contributor, visitor, and star activity to identify some trends in open source projects for the year ahead.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-trends&quot;&gt;Project trends&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/2695116/35934017-32845756-0bf1-11e8-9f20-426147666626.png&quot; alt=&quot;ghblog-fastestgrowingcommunities-graphic&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;cross-platform-development&quot;&gt;Cross-platform development&lt;/h3&gt;
+
+&lt;p&gt;Some of the projects that experienced the largest growth in activity were focused on cross-platform or web development. For example, &lt;a href=&quot;https://github.com/angular/angular-cli&quot;&gt;Angular/angular-cli&lt;/a&gt; had 2.2 times more contributors in 2017 than in 2016. You contributed more, visited more often, and starred projects related to &lt;a href=&quot;https://github.com/angular/angular&quot;&gt;Angular/Angular&lt;/a&gt;, &lt;a href=&quot;https://github.com/facebook/react&quot;&gt;Facebook/React&lt;/a&gt;, and &lt;a href=&quot;https://github.com/electron/electron&quot;&gt;Electron/Electron&lt;/a&gt;. These projects simplify the development process, shortening the time from start to deployment across desktop and mobile platforms.&lt;/p&gt;
+
+&lt;h3 id=&quot;deep-learning&quot;&gt;Deep learning&lt;/h3&gt;
+
+&lt;p&gt;You’ve also been rallying around deep learning projects. Across multiple industries, artificial intelligence is solving a host of complex and interesting problems. You’ve helped drive that interest by upping your contributions to and visits to projects like &lt;a href=&quot;https://github.com/keras-team/keras&quot;&gt;Keras-team/Keras&lt;/a&gt; and &lt;a href=&quot;https://github.com/mozilla/DeepSpeech&quot;&gt;Mozilla/DeepSpeech&lt;/a&gt;. &lt;a href=&quot;https://github.com/tensorflow/tensorflow&quot;&gt;TensorFlow/TensorFlow&lt;/a&gt; had 2.2 times more visits in 2017 than in 2016, and &lt;a href=&quot;https://github.com/tensorflow/models&quot;&gt;TensowFlow/models&lt;/a&gt; had 5.5 times more visits!&lt;/p&gt;
+
+&lt;h3 id=&quot;new-skills&quot;&gt;New skills&lt;/h3&gt;
+
+&lt;p&gt;Your commitment to developing coding skills is unparalleled. You starred projects, many created in 2017, related to learning to code, getting coding jobs, and coding best practices. For example, &lt;a href=&quot;https://github.com/Chalarangelo/30-seconds-of-code&quot;&gt;Chalarangelo/30-seconds-of-code&lt;/a&gt; and &lt;a href=&quot;https://github.com/norvig/pytudes&quot;&gt;norvig/pytudes&lt;/a&gt; provide code examples in javascript and python respectively to help you brush up on your fluency in these languages. &lt;a href=&quot;https://github.com/jwasham/coding-interview-university&quot;&gt;jwasham/coding-interview-university&lt;/a&gt; and &lt;a href=&quot;https://github.com/yangshun/tech-interview-handbook&quot;&gt;yangshun/tech-interview-handbook&lt;/a&gt; provide resources for how to pass the interview process for software engineering roles. &lt;a href=&quot;https://github.com/i0natan/nodebestpractices&quot;&gt;i0natan/nodebestpractices&lt;/a&gt;, &lt;a href=&quot;https://github.com/alibaba/p3c&quot;&gt;alibaba/p3c&lt;/a&gt;, and &lt;a href=&quot;https://github.com/thedaviddias/Front-End-Checklist&quot;&gt;thedaviddias/Front-End-Checklist&lt;/a&gt; provide best practices for writing code and organizing projects.&lt;/p&gt;
+
+&lt;h2 id=&quot;methods&quot;&gt;Methods&lt;/h2&gt;
+
+&lt;p&gt;How did we discover these trends? We looked at three different types of activity. First, we identified the top 100 projects that had at least 2,000 contributors in 2016 &lt;em&gt;and&lt;/em&gt; experienced the largest increase in contributors in 2017. We also identified the top 100 projects that received the largest increase in visits to the project’s repo in 2017. Finally, we identified the top 100 projects that received the most new stars in 2017. Combining these lists, we categorized projects into broad communities and looked at the communities that were the most represented at the top of the lists.&lt;/p&gt;
+
+&lt;p&gt;We were impressed with the range of creative projects that emerged. You scratched the itch to &lt;a href=&quot;https://github.com/xxhomey19/nba-go&quot;&gt;keep track of your favorite NBA teams from the command line&lt;/a&gt; while you code, and you still found time to create an Android app for journalists and activists to &lt;a href=&quot;https://github.com/guardianproject/haven&quot;&gt;securely monitor their homes and offices&lt;/a&gt;. Well done!&lt;/p&gt;
+
+&lt;h2 id=&quot;learn-more&quot;&gt;Learn more&lt;/h2&gt;
+
+&lt;p&gt;If you’d like to see a lot more data covering what the GitHub community was up to from September 2016 through September 2017 including the most forked projects, the most social projects, and the most reviewed projects, check out the report we released at Universe: &lt;a href=&quot;https://octoverse.github.com/&quot;&gt;The State of the Octoverse&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also see who top contributors to open source in 2017 were in &lt;a href=&quot;https://medium.freecodecamp.org/the-top-contributors-to-github-2017-be98ab854e87&quot;&gt;Felipe Hoffa’s analysis on Medium&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And head over to our redesigned Explore experience to find the latest project collections and trending topics on GitHub.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/explore&quot;&gt;Explore projects&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>Introducing security alerts on GitHub</title>
+    <link href="https://blog.github.com/2017-11-16-introducing-security-alerts-on-github/"/>
+    <updated>2017-11-16T18:01:19+00:00</updated>
+    <id>https://blog.github.com/introducing-security-alerts-on-github</id>
+    <content type="html">&lt;p&gt;Last month, we made it easier for you to keep track of the projects your code depends on with the dependency graph, currently supported in Javascript and Ruby. Today, for the over 75 percent of GitHub projects that have dependencies, we’re helping you do more than see those important projects. With your dependency graph enabled, we’ll now notify you when we detect a vulnerability in one of your dependencies and suggest known fixes from the GitHub community.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/594029/32851987-76c36e4a-c9eb-11e7-98fc-feb39fddaadb.gif&quot; alt=&quot;Security Alerts &amp;amp; Suggested Fix&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-start-using-security-alerts&quot;&gt;How to start using security alerts&lt;/h2&gt;
+
+&lt;p&gt;Whether your projects are private or public, security alerts get vital vulnerability information to the right people on your team.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enable your dependency graph&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Public repositories will automatically have your dependency graph and security alerts enabled. For private repositories, you’ll need to opt in to security alerts in your repository settings or by allowing access in the Dependency graph section of your repository’s Insights tab.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Set notification preferences&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When your dependency graph is enabled, admins will receive security alerts by default. Admins can also add teams or individuals as recipients for security alerts in the dependency graph settings.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Respond to alerts&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When we notify you about a potential vulnerability, we’ll highlight any dependencies that we recommend updating. If a known safe version exists, we’ll select one using machine learning and publicly available data, and include it in our suggestion.&lt;/p&gt;
+
+&lt;h2 id=&quot;vulnerability-coverage&quot;&gt;Vulnerability coverage&lt;/h2&gt;
+
+&lt;p&gt;Vulnerabilities that have &lt;a href=&quot;https://cve.mitre.org/&quot;&gt;CVE IDs&lt;/a&gt; (publicly disclosed vulnerabilities from the &lt;a href=&quot;https://nvd.nist.gov/&quot;&gt;National Vulnerability Database&lt;/a&gt;) will be included in security alerts. However, not all vulnerabilities have CVE IDs—even many publicly disclosed vulnerabilities don’t have them. We’ll continue to get better at identifying vulnerabilities as our security data grows. For more help managing security issues, check out our &lt;a href=&quot;https://github.com/marketplace/category/security&quot;&gt;security partners in the GitHub Marketplace&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is the next step in using the world’s largest collection of open source data to help you keep code safer and do your best work. The dependency graph and security alerts currently support Javascript and Ruby—with Python support coming in 2018.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/about-security-alerts-for-vulnerable-dependencies/&quot;&gt;Learn more about security alerts&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>The data science behind topic suggestions</title>
+    <link href="https://blog.github.com/2017-09-14-the-data-science-behind-topic-suggestions/"/>
+    <updated>2017-09-14T16:15:27+00:00</updated>
+    <id>https://blog.github.com/the-data-science-behind-topic-suggestions</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/5679180/22481508/65079376-e7aa-11e6-9026-5b903fbb083f.png&quot; alt=&quot;Add topics to repositories&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Earlier this year, we launched &lt;a href=&quot;https://github.com/blog/2309-introducing-topics&quot;&gt;topics&lt;/a&gt;, a new feature that lets you tag repositories with descriptive words or phrases. Topics help you create connections between similar GitHub projects and explore them by type, technology, and other characteristics they have in common.&lt;/p&gt;
+
+&lt;p&gt;All public repositories show topic suggestions, so you can quickly tag repositories with relevant words and phrases. These suggestions are the result of some exciting data science work—in particular, a topic extraction framework based on text mining, natural language processing, and machine learning called repo-topix.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://githubengineering.com/topics&quot;&gt;Learn more about repo-topix from the Engineering Blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/7321362/30234657-3f8acc00-94b4-11e7-86df-dcd0cf316e5e.png&quot; alt=&quot;Topic suggestions close up&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now when you add or reject topics, you’re doing more than keeping projects organized. Every topic will contribute to surfacing connections and inspiring discovery across GitHub. Repository names, descriptions, and READMEs from millions of public projects serve as the very start of an ever-evolving knowledge graph of concepts. Eventually, the graph will map how these concepts relate to each other and to the code, people, and projects on GitHub.&lt;/p&gt;
+
+&lt;p&gt;Topics is part of a greater effort to use our public data to make meaningful improvements to how people discover, interact, and build on GitHub. We’ll be sharing more ways that data can improve the way you work at Universe—our flagship product and community conference.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://githubuniverse.com&quot;&gt;Get tickets to GitHub Universe&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>Announcing an open data set on the open source community</title>
+    <link href="https://blog.github.com/2017-06-02-announcing-an-open-data-set-on-the-open-source-community/"/>
+    <updated>2017-06-02T14:05:18+00:00</updated>
+    <id>https://blog.github.com/announcing-an-open-data-set-on-the-open-source-community</id>
+    <content type="html">&lt;p&gt;We just released &lt;a href=&quot;http://opensourcesurvey.org/&quot;&gt;an open data set&lt;/a&gt; for the open source community, researchers, and curious data wonks to study.&lt;/p&gt;
+
+&lt;p&gt;The data includes responses from 5,500 open source participants randomly sampled from over 3,800 projects on GitHub.com and over 500 sourced from communities that work on other platforms. Altogether, the data represents some of the most comprehensive and high-quality data on the open source community to date.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://opensourcesurvey.org/2017/&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/10302074/26710561/90af8f6e-470f-11e7-97a6-ea4ff86830b1.png&quot; alt=&quot;header from the survey website&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Open Source Survey covers a broad set of topics, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What people value in the software they use and in open source projects&lt;/li&gt;
+  &lt;li&gt;How and where people find and provide help&lt;/li&gt;
+  &lt;li&gt;Privacy preferences and practices&lt;/li&gt;
+  &lt;li&gt;Employer policies around using and contributing to open source&lt;/li&gt;
+  &lt;li&gt;Negative experiences and their consequences&lt;/li&gt;
+  &lt;li&gt;Personal backgrounds of community members&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We hope you’ll use the data to inform decisions about community, tooling, and prioritization of work; understand the needs and experiences of different parts of the community; and do new and interesting research on a remarkable system of peer production that powers so much of modern life.&lt;/p&gt;
+
+&lt;p&gt;In the meantime, we’ve started using the findings to help us understand what makes a healthy community and how we can improve GitHub for maintainers, contributors, and end users.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/10302074/26710529/554bebf2-470f-11e7-9169-577b5e0270c3.png&quot; alt=&quot;plot of importance of various attributes to project use and contribution&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Huge thanks to all of our collaborators in academia, industry, and the open source community who contributed topic ideas and questions, helped with translations, and took the survey. You can find the data, and an analysis of the key findings, at &lt;a href=&quot;http://opensourcesurvey.org/&quot;&gt;opensourcesurvey.org&lt;/a&gt;. &lt;a href=&quot;mailto:opensource@github.com&quot;&gt;Let us know&lt;/a&gt; how you use the data or write to us with questions or comments.&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>GitHub data, ready for you to explore with BigQuery</title>
+    <link href="https://blog.github.com/2017-01-19-github-data-ready-for-you-to-explore-with-bigquery/"/>
+    <updated>2017-01-19T18:57:57+00:00</updated>
+    <id>https://blog.github.com/github-data-ready-for-you-to-explore-with-bigquery</id>
+    <content type="html">&lt;p&gt;GitHub data is available for public analysis using &lt;a href=&quot;https://cloud.google.com/bigquery/public-data/github&quot; target=&quot;_blank&quot;&gt;Google BigQuery&lt;/a&gt;, and we’d like to help you take it for a spin.&lt;/p&gt;
+
+&lt;p&gt;If you’d like to find out more about what data is available and how it’s been used so far, watch this conversation between GitHub Data Analyst &lt;a href=&quot;https://github.com/alysonla&quot; target=&quot;_blank&quot;&gt;Alyson La&lt;/a&gt; and Google Developer Advocate &lt;a href=&quot;https://twitter.com/felipehoffa&quot; target=&quot;_blank&quot;&gt;Felipe Hoffa&lt;/a&gt;. You’ll learn the story behind the datasets and what types of analysis they make possible. You’ll also see how we’ve visualized data with &lt;a href=&quot;http://www.tableau.com/&quot; target=&quot;_blank&quot;&gt;Tableau&lt;/a&gt; and &lt;a href=&quot;https://looker.com/&quot; target=&quot;_blank&quot;&gt;Looker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/Ast3-RFVHkM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;There’s a lot of data out there, but it’s all available through BigQuery in two large data sets. The original, community-led &lt;a href=&quot;https://www.githubarchive.org/&quot; target=&quot;_blank&quot;&gt;GitHub Archive&lt;/a&gt; project launched in 2012 and captures almost 30 million events monthly, including issues, commits, and pushes. Last year, we worked with Google to release &lt;a href=&quot;https://medium.com/google-cloud/github-on-bigquery-analyze-all-the-code-b3576fd2b150&quot; target=&quot;_blank&quot;&gt;The GitHub Public Data Set&lt;/a&gt;, separate tables with information on all projects that have open source licenses, including commits, file contents, and file paths.&lt;/p&gt;
+
+&lt;p&gt;You can also use the &lt;a href=&quot;http://ghtorrent.org/&quot; target=&quot;_blank&quot;&gt;GH torrent&lt;/a&gt; project to complement the existing datasets with additional metadata.&lt;/p&gt;
+
+&lt;p&gt;We ran &lt;a href=&quot;https://gist.github.com/alysonla/e14c01ec7a0d2823e7317f7b58b22926&quot; target=&quot;_blank&quot;&gt;a list of queries&lt;/a&gt; on the datasets above to create the open source section of our &lt;a href=&quot;https://octoverse.github.com/&quot;&gt;Octoverse&lt;/a&gt; report, but anyone can run an analysis. Here are the results of some of the queries run so far.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;“This should never have happened” has appeared in code comments more than a million times (hear this data point for yourself in &lt;a href=&quot;https://changelog.com/podcast/209&quot; target=&quot;_blank&quot;&gt;this Changelog episode&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Where does open source happen? &lt;a href=&quot;https://medium.com/@hoffa/github-top-countries-201608-13f642493773#.beemirtdc&quot; target=&quot;_blank&quot;&gt;GitHub top countries&lt;/a&gt; shares which countries have the most open source developers per capita&lt;/li&gt;
+  &lt;li&gt;How reliable is GitHub? Felipe runs a query to find out in &lt;a href=&quot;https://medium.com/@hoffa/sla-slo-explored-with-github-and-bigquery-e6a135919a8e#.un9i46w7m&quot; target=&quot;_blank&quot;&gt;GitHub reliability with BigQuery&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;There are a lot of feels in open source. &lt;a href=&quot;http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/&quot; target=&quot;_blank&quot;&gt;Geeksta&lt;/a&gt; examines how emotions are expressed in GitHub commit messages&lt;/li&gt;
+  &lt;li&gt;Are bigger pull requests better? Jessie Frazelle analyzed &lt;a href=&quot;https://blog.jessfraz.com/post/analyzing-github-pull-request-data-with-big-query/&quot; target=&quot;_blank&quot;&gt;the top 15 projects on GitHub&lt;/a&gt; in terms of pull requests opened vs. pull requests closed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Happy exploring!&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>Making open source data more available</title>
+    <link href="https://blog.github.com/2016-06-29-making-open-source-data-more-available/"/>
+    <updated>2016-06-29T20:00:12+00:00</updated>
+    <id>https://blog.github.com/making-open-source-data-more-available</id>
+    <content type="html">&lt;p&gt;Data gives us insight into how people build software, and the activities of open source communities on GitHub represent one of the richest datasets ever created of people working together at scale.&lt;/p&gt;
+
+&lt;p&gt;In 2012, the community led project, &lt;a href=&quot;https://www.githubarchive.org/&quot;&gt;GitHub Archive&lt;/a&gt; was &lt;a href=&quot;https://github.com/blog/1112-data-at-github&quot;&gt;launched&lt;/a&gt;, providing a glimpse into the ways people build software on GitHub. Today, we’re delighted to announce that, in collaboration with Google, we are releasing a &lt;a href=&quot;http://cloud.google.com/bigquery/public-data/github&quot;&gt;collection of additional BigQuery tables&lt;/a&gt; to expand on the data from that project&lt;sup&gt;1&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;This 3TB+ dataset comprises the largest released source of GitHub activity to date. It contains &lt;a href=&quot;https://developer.github.com/v3/activity/events/&quot;&gt;activity data&lt;/a&gt; for more than 2.8 million open source GitHub repositories including more than 145 million unique commits, over 2 billion different file paths and the contents of the latest revision for 163 million files, all of which are searchable with regular expressions.&lt;/p&gt;
+
+&lt;p&gt;With this new dataset, it’s a simple query to find out which are the &lt;a href=&quot;https://gist.github.com/arfon/49ca314a5b0a00b1ebf91167db3ff02c#most-commonly-used-go-packages&quot;&gt;most commonly used Go packages&lt;/a&gt;, which US-schools have the &lt;a href=&quot;https://gist.github.com/arfon/49ca314a5b0a00b1ebf91167db3ff02c#most-commits-for-edu-contributors&quot;&gt;most open source contributors&lt;/a&gt; and find all of the things that &lt;a href=&quot;https://gist.github.com/arfon/49ca314a5b0a00b1ebf91167db3ff02c#how-many-times-shouldnt-it-happen&quot;&gt;should never happen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Just as books capture thoughts and ideas, software encodes human knowledge in a machine-readable form. This dataset is a great start toward the pursuit of documenting the open source community’s vast repository of knowledge—but there’s more to be done. Over the coming months, you can expect to hear from us on how we hope to make open source data even more available, portable, and useful.&lt;/p&gt;
+
+&lt;p&gt;Whether you’re a researcher &lt;a href=&quot;https://scholar.google.com/scholar?hl=en&amp;amp;q=github&amp;amp;btnG=&amp;amp;as_sdt=1%2C32&amp;amp;as_sdtp=&quot;&gt;studying open source communities&lt;/a&gt;, an organization looking to monitor the health of your open source projects, or curious about the latest trends in software development, go &lt;a href=&quot;http://cloud.google.com/bigquery/public-data/github&quot;&gt;check out the new dataset hosted on Google Cloud&lt;/a&gt; to analyze one of the largest datasets of people collaborating on the planet.&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;1.&lt;/sup&gt; If you’d like to hear more about the data release then check out &lt;a href=&quot;https://changelog.com/209&quot;&gt;this episode of The Changelog&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry><entry>
+    <title>Language Trends on GitHub</title>
+    <link href="https://blog.github.com/2015-08-19-language-trends-on-github/"/>
+    <updated>2015-08-19T17:15:05+00:00</updated>
+    <id>https://blog.github.com/language-trends-on-github</id>
+    <content type="html">&lt;p&gt;Recently we took a look at the popularity of programming languages used on GitHub.com.&lt;/p&gt;
+
+&lt;p&gt;Below is a graph that shows the change in rank of languages since GitHub launched in 2008.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/2623954/9098640/f15e22b4-3b7f-11e5-9496-12b6d811f0ea.jpg&quot; alt=&quot;non-forks_v3 jpg 002&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The rank represents languages used in public &amp;amp; private repositories, excluding forks, as detected by &lt;a href=&quot;https://github.com/github/linguist&quot;&gt;Linguist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It should be noted that this graph represents each language’s relative popularity on GitHub. For example, &lt;a href=&quot;https://github.com/blog/32-rails-moving-to-git&quot;&gt;Ruby on Rails has been on GitHub since 2008&lt;/a&gt;, which may explain Ruby’s early popularity.&lt;/p&gt;
+
+&lt;p&gt;Between 2008 and 2015 GitHub gained the most traction in the Java community, which changed in rank from 7th to 2nd. Possible contributing factors to this growth could be the growing popularity of Android and the increasing demand for version control platforms at businesses and enterprises.&lt;/p&gt;
+</content>
+  </entry></feed>
